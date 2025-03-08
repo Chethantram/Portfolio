@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar'
 import {Route,Routes} from 'react-router-dom'
 
 import List from './pages/List'
-import AddProject from './pages/add'
+import AddProject from './pages/Add'
 import { ToastContainer } from 'react-toastify'
 
 
