@@ -84,6 +84,7 @@ body{
   width: 330px; /* Adjust width */
   height: 250px; /* Adjust height */
   overflow: hidden;
+  z-index: 1;
 }
 
 /* Project Image */
