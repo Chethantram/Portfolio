@@ -6,7 +6,7 @@ import Contact from "../components/Contact";
 import { FolderOpen, Mail, MoveRight } from "lucide-react";
 
 const ProjectId = () => {
-  const url = "http://localhost:3000";
+  const url = "https://portfolio-backend-reqo.onrender.com";
   const { id } = useParams();
   const [data, setData] = useState({});
   const [menu, setMenu] = useState("project");
