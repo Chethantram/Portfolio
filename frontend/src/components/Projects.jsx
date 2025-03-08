@@ -25,9 +25,10 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10">
         {data.map((project, index) => {
           return (
-            <div key={index} className="flex flex-col items-center -z-1 text-white">
+            <div key={index} className="flex flex-col items-center  text-white">
               <div className="project-card rounded-md w-full">
                 <img
+                  onClick={() => navigate(`/project/${project._id}`)}
                   src={`${url}/images/${project.image}`}
                   className="project-image w-full h-[250px] object-cover"
                   alt="image"
