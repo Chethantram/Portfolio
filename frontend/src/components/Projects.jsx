@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Projects = () => {
   const [data, setData] = useState([]);
   const navigate = useNavigate();
-  const url = "http://localhost:3000";
+  const url = "https://portfolio-backend-reqo.onrender.com";
   const getProject = async () => {
     const response = await axios.get(`${url}/api/project/list`);
     setData(response.data.data);
