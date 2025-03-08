@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState("Home")
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="flex justify-between fixed w-[100%] items-center py-3 text-white bg-[#001524]/80 px-3 md:px-10">
+    <nav className="flex justify-between fixed w-[100%] items-center py-3 text-white bg-[#001524]/80 z-10 px-3 md:px-10">
       <Link to={'/'} className="flex items-center gap-2 cursor-pointer">
         <img src="/logo.svg" alt="logo" className="w-12 h-12" />
         <h2 className="font-bold text-2xl">CTR</h2>
